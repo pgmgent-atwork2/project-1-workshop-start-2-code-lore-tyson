@@ -1,0 +1,11 @@
+.memory-game {
+  width: 50rem;
+  margin: 3rem auto;
+}
+
+img.memory-game__card {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  overflow: hidden;
+}
