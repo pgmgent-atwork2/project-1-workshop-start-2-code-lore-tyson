@@ -3,9 +3,16 @@
   margin: 3rem auto;
 }
 
+.memory-game h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
 img.memory-game__card {
   width: 8rem;
   height: 8rem;
+  padding: 0.1rem;
   object-fit: cover;
   overflow: hidden;
 }
