@@ -102,7 +102,7 @@ function flipCard(images) {
                   const $popup = document.querySelector(".memory-game__popup");
                   $popup.style.display = "block";
                   $popup.innerHTML =
-                    "<h1>Proficiat je bent gewonnen!</h1><button onclick='location.reload()'>Opnieuw spelen</button>";
+                    "<h1>Proficiat je bent gewonnen!</h1><div class='memory-game__button__container'><button class='memory-game__button' onclick='location.reload()'>Opnieuw spelen</button><a class='memory-game__button' href='uitleg.html'>Terug naar de uitleg pagina</a></div>";
                 }
               } else {
                 flippedCards.forEach(($card) => {
