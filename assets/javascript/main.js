@@ -83,8 +83,6 @@ function flipCard(images) {
 
   for (const $subEl of $el.children) {
     $subEl.addEventListener("click", function () {
-      const $front = $subEl.src.includes("front");
-      if ($front) {
         const id = $subEl.getAttribute("data-id");
         const url = images.find((image) => image.id == id).url;
         $subEl.src = `assets/images/pexels-${url}.jpg`;
@@ -115,7 +113,6 @@ function flipCard(images) {
             }, 1000);
           }
         }
-      }
     });
   }
 }
