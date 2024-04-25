@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 .memory-game {
   width: 50rem;
   margin: 3rem auto;
@@ -13,7 +17,7 @@ h1 {
   background: linear-gradient(#272932, #4d7ea8);
   color: white;
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-size: cover;
   position: absolute;
   padding: 0;
