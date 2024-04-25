@@ -25,7 +25,7 @@ h1 {
 }
 
 img {
-  width: 20rem;
+  width: 40rem;
 }
 
 .container-contents {
@@ -107,4 +107,10 @@ a.memory-game__button {
 
 li{
   list-style: none;
+}
+
+a{
+  color: white;
+  display: block;
+  text-transform: uppercase;
 }
